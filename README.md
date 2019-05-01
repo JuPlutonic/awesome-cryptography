@@ -142,6 +142,8 @@ A curated list of cryptography resources and links.
 - [tiny-AES128-C](https://github.com/kokke/tiny-AES128-C) - Small portable AES128 in C.
 - [wolfSSL](https://github.com/wolfSSL/wolfssl) - Small, fast, portable implementation of TLS/SSL for embedded devices to the cloud.
 - [xxHash](https://github.com/Cyan4973/xxHash) - Extremely fast hash algorithm.
+- [scrypt](https://github.com/TarsnapZ/scrypt) - One of password-based key derivation functions. Was specifically designed to make it costly to perform large-scale custom hardware attacks by requiring large amounts of memory.Now used by a number of cryptocurrencies.
+
 
 ### C++
 
@@ -286,6 +288,7 @@ encryption library providing MD5, SHA1, SHA2 hashing and HMAC functionality, as 
 - [pycryptodome](https://github.com/Legrandin/pycryptodome) - Self-contained Python package of low-level cryptographic primitives.
 - [PyElliptic](https://github.com/yann2192/pyelliptic) - Python OpenSSL wrapper. For modern cryptography with ECC, AES, HMAC, Blowfish.
 - [pynacl](https://github.com/pyca/pynacl) - Python binding to the Networking and Cryptography (NaCl) library.
+- [pylibscrypt](https://github.com/jvarho/pylibscrypt) - Python binding to various scrypt libraries. Mainly calls scrypt from hashlib (if Python 3.6 and OpenSSL 1.1 is provided).
 
 ### R
 
@@ -295,6 +298,7 @@ encryption library providing MD5, SHA1, SHA2 hashing and HMAC functionality, as 
 
 - [bcrypt-ruby](https://github.com/codahale/bcrypt-ruby) - Ruby binding for the OpenBSD bcrypt() password hashing algorithm, allowing you to easily store a secure hash of your users' passwords.
 - [RbNaCl](https://github.com/cryptosphere/rbnacl) - Ruby binding to the Networking and Cryptography (NaCl) library.
+- [scrypt gem](https://github.com/pbhogan/scrypt) - Ruby binding for the scrypt password hashing algorithm.
 
 ### Rust
 
